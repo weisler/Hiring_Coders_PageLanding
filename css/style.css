@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end
+}
+
+.background-section-One {
+    background-image: url(../assets/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+.section-produtos {
+    background-image: url(../assets/bg.jpg);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hspace = 50px
+}
+
+.background-section-Two {
+    background-image: url(../assets/bg2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+.section-Rodape {
+    background-size: cover;
+    background: #000;
+    text-align: center;
+}
+
+.card-container{
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+    width: 450px;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color: #fff;
+}
+
+footer{
+    height: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+h2 { 
+    color: #fff;
+ }
